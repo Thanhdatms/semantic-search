@@ -28,4 +28,15 @@ When customers send a prompt to the server, their prompt is converted into a vec
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/tienvtt/big-data-project.git
+   git clone https://github.com/Thanhdatms/semantic-search
+2. Navigate to the project directory:
+    ```sh
+    cd semantic_search_v1
+    cd semantic_search_v2
+3. Create a virtual environment (optional but recommended):
+    ```sh
+    python -m venv venv
+    source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
+4. Install the required dependencies:
+    ```sh
+    pip install -r requirements.txt
